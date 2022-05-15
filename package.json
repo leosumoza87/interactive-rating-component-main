@@ -1,0 +1,18 @@
+{
+  "name": "interactive-rating-component-main",
+  "version": "1.0.0",
+  "description": "Desafio de Frontend Mentor HTML CSS y JS",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JS",
+    "Frontend",
+    "Mentor"
+  ],
+  "author": "Leonard Sumoza",
+  "license": "MIT"
+}

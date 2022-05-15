@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+:root {
+/*Primary*/
+
+--Orange: hsl(25, 97%, 53%);
+
+/*Neutral*/
+
+--White: hsl(0, 0%, 100%);
+--LightGrey: hsl(217, 12%, 63%);
+--MediumGrey: hsl(216, 12%, 54%);
+--DarkBlue: hsl(213, 19%, 18%);
+--VeryDarkBlue: hsl(216, 12%, 8%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--VeryDarkBlue);
+    color: var(--White);
+    font-family: 'Overpass', sans-serif;  
+    width: 100vw;
+    height: 100vh;  
+    display: grid;    
+}
+
+main {
+    width: 350px;
+    height: 350px;
+    background-color:var(--DarkBlue);
+    padding: 24px;
+    border-radius: 14px;
+    place-self: center;  
+    display: grid;      
+}
+
+.main__section .main__thank { 
+    width: 100%;  
+    height: 100%; 
+    display: grid;        
+}
+
+.icon {
+    width: 36px;
+    height: 36px;
+    margin-bottom: 20px;
+    background-color: hsl(216, 12%, 22%) ;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;   
+    
+}
+
+.icon__star {
+    width: 13px;
+}
+
+.section__title {
+    margin: 0 0 20px 0;
+}
+
+.section__paragraph {
+    margin-bottom: 20px;
+    font-size: 15px;    
+    font-weight: 400;
+    color: var(--MediumGrey);
+}
+
+.rating {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+}
+
+.rating--number{
+    width: 44px;
+    height: 44px;
+    margin-bottom: 20px;
+    background-color: hsl(216, 12%, 22%) ;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    color: var(--MediumGrey);
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+}
+
+.rating--number:hover {
+    background-color: var(--Orange);
+    color: var(--White);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.rating--number:focus {
+    background-color: var(--LightGrey);
+}
+
+.button__submit {
+    width: 100%;
+    height: 50px;
+    background-color: var(--Orange);
+    border-radius: 24px;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    letter-spacing: 4px;
+    color: var(--White);
+}
+
+
+.result {    
+    margin-bottom: 24px ; 
+    display: grid;
+    justify-content: center;
+
+}
+
+.result img {
+    width: 150px;
+}
+
+.selected {
+    width: 100%;
+    height: 40px;  
+    text-align: center;
+    padding: 10px;
+    background-color: hsl(216, 12%, 22%);
+    border-radius: 20px;
+    color: var(--Orange);    
+    margin-bottom: 24px;
+}
+
+.title__thank {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.appreciate {
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--LightGrey); 
+    line-height: 20px;
+}
+
+footer {
+    width: 100%;
+    height: 100%;
+    
+
+}
+
+.attribution {     
+    height: 12px;
+    font-size: 11px; 
+    text-align: center;
+    align-self: end;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
